@@ -12,5 +12,14 @@ class MainClass {
         docato.peso(09"a"11"Kg");
         docato.expec_vida(12"a"16"anos");
         docato.temperamento(" Inteligente, Independente, Ativo, Curioso, Obstinado, Reservado")
+
+      Dono animal = new Dono();
+      animal.setNome("Tarzan");
+      animal.setRg(12345);
+      animal.setEnd("Selva Brasileira nº 2019");
+      animal.setCidade("Brasil Semdono");
+  
   }
+
+
 }
