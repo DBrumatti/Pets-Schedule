@@ -11,32 +11,64 @@ class Animal{
   private int expec_vida;
   private string temperamento;
   
-
   public Animal(){}
 
-  public Animal(string nome,string tipo,string raca,string porte,string cor,double idade,double peso,int tempo_vida,string temperamento){
-    
-    this.nome = nome;
-    this.tipo = tipo;
-    this.raca = raca;
-    this.porte = porte;
-    this. cor = cor;
-    this.idade = idade;
-        this.peso = peso;
-        this.tempo_vida - tempo_vida = tempo_vida;
-        this.temperamento = temperamento;
+  public Animal (string nome,string tipo,string raca,string porte,string cor,double idade,double peso,int tempo_vida,string temperamento){
 
   }
-  public void comer(double Kg)//Métodos,os parametros dos métodos estão dentro dos parêntesses
-    {
-        this.comer = kg;
+    
+    public void setNome(string nome){
+      this.nome = nome;
     }
-    public void passeio(string Lazer)
-    {
-        this.passeio = Lazer;
+    public string getNome(){
+      return this.nome;
     }
-    public void BanhoeTosa(string cuidado)
-    {
-        this.BanhoeTosa = cuidado;
+    public void setTipo(string tipo){
+      this.tipo = tipo;
     }
+    public string getTipo(){
+      return this.tipo;
+    }
+    public void setRaca(string raca){
+      this.raca = raca;
+    }
+    public string getRaca(){
+      return this.raca;
+    }
+    public void setPorte(string porte){
+      this.porte = porte;
+    }
+    public string getPorte(){
+      return this.raca;
+    }
+    public void setCor(string cor){
+      this.cor = cor;
+    }
+    public string getCor(){
+      return this.cor;
+    }
+    public void setIdade(double idade){
+      this.idade = idade;
+    }
+    public double getIdade(){
+      return this.idade;
+    }
+    public void setPeso(double peso){
+      this.peso = peso;
+    }
+    public double getPeso(){
+      return this.peso;
+    }
+    public void setExpec_vida(int expec_vida){
+      this.expec_vida = expec_vida;
+    }
+    public int getExpec_vida(){
+      return this.expec_vida;
+    }
+    public void setTemperamento(string temperamento){
+      this.temperamento = temperamento;
+    }
+    public string getTemperamento(){
+      return this.temperamento;
+    }  
 }

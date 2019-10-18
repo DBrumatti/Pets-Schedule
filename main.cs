@@ -3,15 +3,15 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     Animal docato = new Animal();
-        docato.nome("Charles Braw");
-        docato.tipo("Cachorro");
-        docato.raca("Bensaji");
-        docato.porte("Médio");
-       docato.cor("Laranja e Branco");
-        docato.idade(01"ano");
-        docato.peso(09"a"11"Kg");
-        docato.expec_vida(12"a"16"anos");
-        docato.temperamento(" Inteligente, Independente, Ativo, Curioso, Obstinado, Reservado")
+        docato.setNome("Charles Braw");
+        docato.setTipo("Cachorro");
+        docato.setRaca("Bensaji");
+        docato.setPorte("Médio");
+        docato.setCor("Laranja e Branco");
+        docato.setIdade(01);
+        docato.setPeso(12);
+        docato.setExpec_vida(16);
+        docato.setTemperamento(" Inteligente, Independente, Ativo, Curioso, Obstinado, Reservado");
 
       Dono animal = new Dono();
       animal.setNome("Tarzan");

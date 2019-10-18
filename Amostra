@@ -1,0 +1,23 @@
+    /*this.nome = nome;
+    this.tipo = tipo;
+    this.raca = raca;
+    this.porte = porte;
+    this. cor = cor;
+    this.idade = idade;
+        this.peso = peso;
+        this.tempo_vida - tempo_vida = tempo_vida;
+        this.temperamento = temperamento;
+
+  }
+  public void comer(double Kg)//Métodos,os parametros dos métodos estão dentro dos parêntesses
+    {
+        this.comer = kg;
+    }
+    public void passeio(string Lazer)
+    {
+        this.passeio = Lazer;
+    }
+    public void BanhoeTosa(string cuidado)
+    {
+        this.BanhoeTosa = cuidado;
+    }*/
