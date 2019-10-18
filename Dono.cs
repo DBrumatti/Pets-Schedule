@@ -12,7 +12,7 @@ class Dono{
   public void setNome(string nome){
     this.nome=nome;
   }
-  public string getNome(){
+  public  string getNome(){
     return this.nome;
   }
   public void setRg(int rg ){

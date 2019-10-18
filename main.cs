@@ -7,7 +7,7 @@ class MainClass {
         docato.setTipo("Cachorro");
         docato.setRaca("Bensaji");
         docato.setPorte("Médio");
-        docato.setCor("Laranja e Branco");
+       docato.setCor("Laranja e Branco");
         docato.setIdade(01);
         docato.setPeso(12);
         docato.setExpec_vida(16);
