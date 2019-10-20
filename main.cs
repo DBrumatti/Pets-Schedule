@@ -18,6 +18,10 @@ class MainClass {
       animal.setRg(12345);
       animal.setEnd("Selva Brasileira nº 2019");
       animal.setCidade("Brasil Semdono");
+
+       
+       
+       
   
   }
 
