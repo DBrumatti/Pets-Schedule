@@ -1,12 +1,12 @@
 class Dono{
   private string nome;
-  private int rg;
+  private int cel;
   private string end;
   private string cidade;
 
   public Dono(){}
 
-  public Dono(string nome,int rg,string end,string cidade){
+  public Dono(string nome,int cel,string end,string cidade){
 
   }
   public void setNome(string nome){
@@ -15,11 +15,11 @@ class Dono{
   public  string getNome(){
     return this.nome;
   }
-  public void setRg(int rg ){
+  public void setCel(int cel ){
     this.nome=nome;
   }
-  public int getRg(){
-    return this.rg;
+  public int getCel(){
+    return this.Cel;
   }
   public void setEnd(string end){
     this.end=end;

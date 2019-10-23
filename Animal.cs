@@ -9,12 +9,12 @@ class Animal{
   private double idade;
   private double peso;
   private int expec_vida;
-  private string temperamento;
+  private string temper;
   
 
   public Animal(){}
 
-  public Animal(string nome,string tipo,string raca,string porte,string cor,double idade,double peso,int tempo_vida,string temperamento){}
+  public Animal(string nome,string tipo,string raca,string porte,string cor,double idade,double peso,int tempo_vida,string temper){}
 
       public void setNome(string nome){
       this.nome = nome;
@@ -65,11 +65,11 @@ class Animal{
       public int getExpec_vida(){
         return this.expec_vida;
       }
-      public void setTemperamento(string temperamento){
-        this.temperamento = temperamento;
+      public void setTemper(string temper){
+        this.temper = temper;
       }
-      public string getTemperamento(){
-        return this.temperamento;
+      public string getTemper(){
+        return this.temper;
       }
   
   
