@@ -1,77 +1,103 @@
 class Animal{
- // armazenar as informações que descrevem os animais, fazemos isso declarando variáveis 
-//dentro da classe, essas variáveis são os atributos
-  private string nome;
-  private string tipo;
-  private string raca;
-  private string porte;
-  private string cor;
-  private double idade;
-  private double peso;
-  private int expec_vida;
-  private string temper;
-  
+//Atributos
+private string nome;
+        
+        private string raca;
+        private string tipo;
+        private string porte;
+        private string cor;
+        private double idade;
+        private double peso;
+        private int vida;
+        private string temper;
+        //Metodos Contrutores é responsavel por instanciar
+        public Animal(){}
 
-  public Animal(){}
+        public Animal(string nome, string tipo, string raca, string porte, string cor, double idade, double peso, int vida, string temper){
 
-  public Animal(string nome,string tipo,string raca,string porte,string cor,double idade,double peso,int tempo_vida,string temper){}
-
-      public void setNome(string nome){
-      this.nome = nome;
-      }
-      public string getNome(){
-        return this.nome;
-      }
-      public void setTipo(string tipo){
+        this.nome = nome;
         this.tipo = tipo;
-      }
-      public string getTipo(){
-        return this.tipo;
-      }
-      public void setRaca(string raca){
         this.raca = raca;
-      }
-      public string getRaca(){
-        return this.raca;
-      }
-      public void setPorte(string porte){
         this.porte = porte;
-      }
-      public string getPorte(){
-        return this.porte;
-      }
-      public void setCor(string cor){
         this.cor = cor;
-      }
-      public string getCor(){
-        return this.cor;
-      }
-      public void setIdade(double idade){
         this.idade = idade;
-      }
-      public double getIdade(){
-        return this.idade;
-      }
-      public void setPeso
-      (double peso){
         this.peso = peso;
-      }
-      public double getPeso(){
-        return this.peso;
-      }
-      public void setExpec_vida(int expec_vida){
-        this.expec_vida = expec_vida;
-      }
-      public int getExpec_vida(){
-        return this.expec_vida;
-      }
-      public void setTemper(string temper){
+        this.vida = vida;
         this.temper = temper;
-      }
-      public string getTemper(){
-        return this.temper;
-      }
-  
-  
-  
+        }
+            //Métodos acessores
+        public void setNome(string names){
+       
+            this.nome = names;
+        }
+        public string getNome()
+        {
+            return this.nome;
+        }
+         public void setTipo(string tipos){
+       
+            this.tipo = tipos;
+        }
+        public string getTipo()
+        {
+            return this.tipo;
+        }
+        
+        public void setRaca(string rac)
+        {
+            this.raca = rac;
+        }
+        public string getRaca()
+        {
+            return this.raca;
+        }
+        public void setPorte(string port)
+        {
+            this.porte = port;
+        }
+        public string getPorte()
+        {
+            return this.porte;
+        }
+        public void setCor(string color)
+        {
+            this.cor = color;
+        }
+        public string getCor()
+        {
+            return this.cor;
+        }
+        public void setIdade(double idad)
+        {
+            this.idade = idad;
+        }
+        public double getIdade()
+        {
+            return this.idade;
+        }
+        public void setPeso(double pes)
+        {
+            this.peso = pes;
+        }
+        public double getPeso()
+        {
+            return this.peso;
+        }
+        public void setVida(int life)
+        {
+            this.vida = life;
+        }
+        public int getVida()
+        {
+            return this.vida;
+        }
+        public void setTemper(string tempera)
+        {
+            this.temper = tempera;
+        }
+        public string getTemper()
+        {
+            return this.temper;
+        }
+      
 }
